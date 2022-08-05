@@ -1,0 +1,28 @@
+/* Font styling import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap');
+
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  background: #0073C7;
+}
+
+header img {
+  height: 50px;
+}
+
+header input[type="submit"] {
+  background: #0073C7;
+  color: #fff;
+}
+
+header {
+  height: 75vh;
+}
+
+
+header main {
+  height: 90%;
+}
