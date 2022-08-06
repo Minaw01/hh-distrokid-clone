@@ -26,3 +26,19 @@ header {
 header main {
   height: 90%;
 }
+
+section#faq-testimonials {
+  background: #002C4D;
+  color: #fff;
+}
+
+.accordion-button,
+.accordion-item {
+  border-radius: 5px;
+  background: #002C4D !important;
+  color: #fff;
+}
+
+.accordion-button:after {
+  filter: brightness(0%) invert(100%);
+}

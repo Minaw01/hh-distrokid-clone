@@ -6,11 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Boostrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
   <title>Distrokid</title>
 </head>
 <body>
+  <!-- Header -->
   <header>
+    <!-- Nav -->
     <nav class="navbar navbar-expand-lg">
       <div class="container d-flex w-100 justify-content-between">
         <a href="index.html" class="navbar-brand fs-3">
@@ -20,7 +27,8 @@
       </div>
     </nav>
 
-    <main class="container d-flex w-100 justify-content-center align-items-center gap-5">
+    <!-- Main -->
+    <main class="container d-flex w-100 justify-content-sm-start justify-content-lg-center flex-md-column flex-sm-column flex-lg-row align-items-center gap-5">
       <div class="text-white w-50">
         <div>
           <h1 class="d-inline">Be Prolific</h1> <img class="d-inline" src="img/distrokid_gremlin_small.png" alt="Distrokid Gremlin Small">
@@ -28,7 +36,6 @@
         <p class="lead">DistroKid is the easiest way for musicians to get music into Spotify, Apple, Amazon, Tidal, TikTok, YouTube, and more.</p>
         <p class="lead">Unlimited uploads, keep 100% of your earnings, and more features than any other music distributor.</p>
       </div>
-
       <div class="w-50">
         <div class="bg-white w-75 m-auto p-3 rounded">
           <p class="lead fw-semibold">Musicians, sign up now.</p>
@@ -49,10 +56,305 @@
         </div>
       </div>
     </main>
-
   </header>
+
+  <!-- Section: Content -->
+  <section id="content" class="container bg-white">
+    <div class="my-5 row align-items-center gap-5">
+      <div class="col-md-12 col-lg-6">
+        <img src="img/blob-mockups.png" alt="Mockups" class="img-fluid">
+      </div>
+      <div class="col-md-12 col-lg-6">
+        <h2 class="fw-semibold">Millions of musicians rely on DistroKid.</h2>
+        <p class="lead">
+          Pay only <span class="fw-bold">$19.99</span> to upload unlimited albums & songs for a year and get in stores 10-20x faster than any other distributor.
+        </p>
+      </div>
+    </div>
+    <div class="row align-items-center gap-5">
+      <div class="col">
+        <h2 class="text-center fw-semibold">Get your music everywhere.</h2>
+        <p class="lead">We'll get your music into Spotify, Apple Music, TikTok, Pandora, Amazon, Instagram, YouTube, Tidal, iHeartRadio, Deezer, plus a ton of other stores & streaming services.</p>
+      </div>
+      <div class="col">
+        <img src="img/services-group.png" alt="Services" class="img-fluid">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Features -->
+  <section id="features" class="mt-5">
+    <h2 class="fw-semibold text-center my-4">Features you won't find anywhere else.</h2>
+    <!-- Feature cards -->
+    <div class="container">
+      <div class="row justify-content-center align-items-stretch gap-3">
+        <!--  -->
+        <div class="col border border-dark rounded">
+          <div class="d-flex justify-content-center align-items-center gap-3 p-4">
+              <img src="img/features/icon-hyperfollow.png" alt="Hyperfollow" class="img-fluid">
+            <div>
+              <small class="fw-bold">Hyperfollow</small>
+              <p class="lh-1">
+                <small>Free, easy web pages to showcase your music, videos, social media links, and more.</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col border border-dark rounded">
+          <div class="d-flex justify-content-center align-items-center gap-3 p-4">
+            <img src="img/features/playlist-icon.png" alt="Playlist Icon" class="img-fluid">
+            <div>
+              <small class="fw-bold">Playlist Spotlight</small>
+              <p class="lh-1">
+                <small>Submit your music to get voted onto the DistroKid genre playlists.</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col border border-dark rounded">
+          <div class="d-flex justify-content-center align-items-center gap-3 p-4">
+            <img src="img/features/promo-card-icon.png" alt="Promos" class="img-fluid">
+            <div>
+              <small class="fw-bold">Promo Cards</small>
+              <p class="lh-1">
+                <small>Promote your release with stunning visuals featuring your album art.</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col border border-dark rounded">
+          <div class="d-flex justify content-center align-items-center gap-3 p-4">
+            <img src="img/features/vizy-icon.png" alt="Vizy" class="img-fluid">
+            <div>
+              <small class="fw-bold">Vizy Video Generator</small>
+              <p class="lh-1">
+                <small>Create shareable videos for your music without having to hire a designer or animator.</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-3">
+      <h3 class="fw-bold text-center text-muted">...and many more!</h3>
+    </div>
+    <div class="d-flex justify-content-center align-items-center my-3">
+      <a href="#" class="btn btn-primary px-5">
+        Get Started
+      </a>
+    </div>
+  </section>
+
+  <!-- Section: FAQ and Testimonials -->
+  <section id="faq-testimonials" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-stretch gap-3">
+        <!-- FAQ Accordion -->
+        <div class="col">
+          <h2>Frequently Asked Questions</h2>
+          <div class="accordion accordion-flush" id="faq-accordion">
+
+
+
+            <!--  -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq1-header">
+                <button 
+                  class="accordion-button collapsed" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#faq1"> What is DistroKid?
+                </button>
+              </h2>
+              <div id="faq1" 
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion">
+                <div class="accordion-body">DistroKid is a service for musicians that puts your music into online stores & streaming services. Then when people listen to your music, we send you money.</div>
+              </div>
+            </div>
+            <!--  -->
+
+            <!--  -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq2-header">
+                <button
+                  class="accordion-button collapsed" 
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq2">Why should I use DistroKid?
+                </button>
+              </h2>
+              <div 
+                id="faq2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                  All your music should be in stores. DistroKid is the only service that lets you upload unlimited music to stores for one low price and keep 100% of your earnings. Other services make you pay every time you upload something, or they take a percent of earnings—which is way less fun (and way more expensive).
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <!--  -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq3-header">
+                <button 
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq3">Why is DistroKid better?
+                </button>
+              </h2>
+              <div
+                id="faq3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                  DistroKid gets your music into stores in a fraction of the time it takes our competitors to get your music into stores. We have great customer service, daily stats, a simple interface, and loads of unique features too.
+                </div>
+            </div>
+            <!--  -->
+            
+          
+          
+          
+            </div>  
+          </div>
+        </div>
+
+        <!-- Testimonials and Press -->
+        <div class="col">
+          <h2>Testimonials and Press</h2>
+          <p class="mt-3">The founders of DistroKid's two biggest competitors left their companies and have given unsolicited endorsements to DistroKid. We think you'll love it too.</p>
+          <div class="my-5">
+            <h5 class="fw-bold">“DistroKid is simply the best distributor in the market.”</h5>
+            <p>- Jeff Price, founder of TuneCore and Audiam (<a href="https://twitter.com/TuneCoreJeff/status/383702024706998273" target="_blank">source</a>)</p>
+            <hr>
+          </div>
+         <div class="my-5">
+            <h5 class="fw-bold">“DistroKid is best for constant creators”</h5>
+            <p>- Digital Music News</p>
+            <hr>
+         </div> 
+         <div class="my-5">
+          <h5 class="fw-bold">“A million dollar record label for $20 with DistroKid”</h5>
+          <p>- Performer Magazine</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Gallery -->
+  <section id="gallery" class="mt-5 bg-white">
+    <div class="mt-5">
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <svg width="16" height="15" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg" style="fill-opacity: .75;">
+          <path d="M12.3841 1.32052C10.9163 0.0696471 8.73329 0.294643 7.38599 1.6848L6.85832 2.22854L6.33065 1.6848C4.98604 0.294643 2.80036 0.0696471 1.33253 1.32052C-0.349581 2.75621 -0.437973 5.33294 1.06736 6.88917L6.2503 12.2409C6.58511 12.5864 7.12885 12.5864 7.46367 12.2409L12.6466 6.88917C14.1546 5.33294 14.0662 2.75621 12.3841 1.32052Z" fill="#374151"></path>
+          </svg>
+          <h1 class="text-muted fw-bold">DistroKid Love</h1>
+          <svg width="16" height="15" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg" style="fill-opacity: .75;">
+          <path d="M12.3841 1.32052C10.9163 0.0696471 8.73329 0.294643 7.38599 1.6848L6.85832 2.22854L6.33065 1.6848C4.98604 0.294643 2.80036 0.0696471 1.33253 1.32052C-0.349581 2.75621 -0.437973 5.33294 1.06736 6.88917L6.2503 12.2409C6.58511 12.5864 7.12885 12.5864 7.46367 12.2409L12.6466 6.88917C14.1546 5.33294 14.0662 2.75621 12.3841 1.32052Z" fill="#374151"></path>
+          </svg>
+      </div>
+      <div class="mt-5">
+        <div class="container">
+          <!-- upper gallery row -->
+          <div class="row justify-content-center align-items-stretch gap-5">
+            <!--  -->
+            <div class="col bg-light p-3">
+              <img src="img/gallery/arizona-zervas-new.jpg" alt="Arizona Zervas" class="img-fluid">
+              <p class="lead fw-semibold">
+                "DistroKid has been a great platform to release my music over the years!"
+              </p>
+              <p>- Arizona Zervas</p>
+            </div>
+            <!--  -->
+
+            <!-- CONTINUE HERE -->
+          </div>
+
+          <!-- lower gallery row -->
+          <div class="row justify-content-center align-items-stretch gap-5 mt-5">
+            <!--  -->
+            <div class="col bg-light p-3">
+              <img src="img/gallery/dta-new.jpg" alt="Dan the Automater" class="img-fluid">
+              <p class="lead fw-semibold">
+                "DistroKid is simple, efficient, and just works!"
+              </p>
+              <p>- Dan the Automater</p>
+            </div>
+            <!--  -->
+
+            <!-- CONTINUE HERE -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section:Footer -->
+  <footer class="mt-5 border border-muted">
+    <div class="container">
+      <div class="mt-5 d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-center align-items-center gap-2">
+          <a href="https://www.youtube.com/user/distrokid?sub_confirmation=1" target="_blank">
+            <i class="fa-brands fa-youtube fa-lg text-muted"></i>
+          </a>
+          <!-- CONTINUE HERE -->
+          <!-- <a href="https://www.youtube.com/user/distrokid?sub_confirmation=1" target="_blank">
+            <i class="fa-brands fa-youtube fa-lg text-muted"></i>
+          </a>
+          <a href="https://www.youtube.com/user/distrokid?sub_confirmation=1" target="_blank">
+            <i class="fa-brands fa-youtube fa-lg text-muted"></i>
+          </a>
+          <a href="https://www.youtube.com/user/distrokid?sub_confirmation=1" target="_blank">
+            <i class="fa-brands fa-youtube fa-lg text-muted"></i>
+          </a> -->
+        </div>
+        <div>
+          <small>&copy;DistroKid 2022</small>
+        </div>
+      </div>
+
+      <div class="mt-5 d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-center align-items-center gap-3">
+          <div>
+            <h6 class="text-muted fw-bold">Help</h6>
+            <a href="#" class="d-block h6 text-decoration-none text-muted">Frequently Asked Questions</a>
+            <a href="#" class="d-block h6 text-decoration-none text-muted">Support Center</a>
+          </div>
+          <!-- CONTINUE HERE -->
+          <!-- <div>
+            <h6 class="text-muted fw-bold">Help</h6>
+            <a href="#" class="d-block h6 text-decoration-none text-muted">Frequently Asked Questions</a>
+            <a href="#" class="d-block h6 text-decoration-none text-muted">Support Center</a>
+          </div> -->
+        </div>
+        <div>
+          <select name="language" id="language" class="form-control">
+            <option value="english">English</option>
+            <option value="english">Español</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mt-4 d-flex justify-content-start align-items-center gap-5">
+        <a href="#" class="h6 text-decoration-none text-muted">Privacy Policy</a>
+        <!-- CONTINUE HERE -->
+        <!-- <a href="#" class="h6 text-decoration-none text-muted">Privacy Policy</a>
+        <a href="#" class="h6 text-decoration-none text-muted">Privacy Policy</a>
+        <a href="#" class="h6 text-decoration-none text-muted">Privacy Policy</a> -->
+      </div>
+    </div>
+  </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
